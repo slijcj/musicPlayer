@@ -53,6 +53,7 @@
             this.Name = "Form2";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
+            this.Resize += new System.EventHandler(this.Form2_Resize);
             this.ResumeLayout(false);
 
         }
